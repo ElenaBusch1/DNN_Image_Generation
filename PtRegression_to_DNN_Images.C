@@ -34,8 +34,8 @@ void PtRegression_to_DNN_Images()
 
  //loop through all modes
  // for (int i=0;i<MODES;i++){        
-	TString fileName="/storage1/users/jtr6/EMTF_ML_training_results/PtRegression_Apr_2017_06_05_invPtTarg_invPtWgt_MODE_" + MODE[0] + "_bitCompr_noRPC.root";
-	TString directoryName="f_MODE_"+ MODE[0]+ "_15_invPtTarg_invPtWgt_bitCompr_noRPC/TrainTree";
+	TString fileName="/storage1/users/jtr6/EMTF_ML_training_results/PtRegression_Apr_2017_06_05_invPtTarg_invPtWgt_MODE_15_bitCompr_noRPC.root";
+	TString directoryName="f_MODE_15_invPtTarg_invPtWgt_bitCompr_noRPC/TrainTree";
 	TFile* myFile = new TFile(fileName);
 	TTree* myTree = (TTree*) myFile->Get(directoryName);
 
